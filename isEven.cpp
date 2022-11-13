@@ -3,7 +3,7 @@
 ** If not, it returns 0
 */
 
-bool main(int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
     /* If last bit of arg is 1 (arg & 1), the number is not even. 
     ** By negating the expression the return value is 0 instead of one,
